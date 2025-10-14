@@ -218,6 +218,7 @@ funcs = {
 print(funcs["add"](10, 20))
 print(funcs["mul"](5, 6))
 
+# Task is create calculator using nested lambda, dictionary and other required conditions & logic
 
 """
 9. Recursion
@@ -383,5 +384,6 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
 
 print(is_prime(29))
